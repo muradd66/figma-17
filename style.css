@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 3vw;
+    font-family: "Roboto Slab", serif;
+    padding-left: 6vw;
+    padding-top: 4vw;
+}
+.kameraman{
+    margin-left: 70vw;
+    margin-top: -50vw;
+    width: 20vw;
+    height: 20vw;
+}
+.text-1{
+    font-family: "Roboto", sans-serif;
+    width: 50vw;
+    font-size: 1.6vw;
+    padding-left: 6vw;
+    margin-top: 3vw;
+}
+.text-2{
+    font-family: "Roboto", sans-serif;
+    width: 58vw;
+    font-size: 1.6vw;
+    padding-left: 6vw;
+    margin-top: 2vw;
+}
+.rejissor{
+    margin-top: 4vw;
+    padding-left: 6vw;
+
+}
+.heading{
+    margin-top: 4vw;
+    font-size: 1.5vw;
+    margin-left: 8vw;
+}
+.footer-text-1{
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    width: 10vw;
+    margin-left: 8vw;
+}
+.footer-text-2{
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    width: 10vw;
+    margin-left: 8vw;
+}
+.footer-text-3{
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    width: 10vw;
+    margin-left: 8vw;
+}
+.part{
+    margin-top: 4vw;
+    /* gap: 2vw; */
+}
+.footer{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
