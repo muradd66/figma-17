@@ -1,70 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     font-size: 3vw;
     font-family: "Roboto Slab", serif;
     padding-left: 6vw;
     padding-top: 4vw;
 }
-.kameraman{
+
+.kameraman {
     margin-left: 70vw;
     margin-top: -50vw;
     width: 20vw;
     height: 20vw;
 }
-.text-1{
+
+.text-1 {
     font-family: "Roboto", sans-serif;
     width: 50vw;
     font-size: 1.6vw;
     padding-left: 6vw;
     margin-top: 3vw;
 }
-.text-2{
+
+.text-2 {
     font-family: "Roboto", sans-serif;
     width: 58vw;
     font-size: 1.6vw;
     padding-left: 6vw;
     margin-top: 2vw;
 }
-.rejissor{
+
+.rejissor {
     margin-top: 4vw;
     padding-left: 6vw;
 
 }
-.heading{
+
+.heading {
     margin-top: 4vw;
     font-size: 1.5vw;
     margin-left: 8vw;
 }
-.footer-text-1{
+
+.footer-text-1 {
     font-size: 1.2vw;
     margin-top: 1vw;
     width: 10vw;
     margin-left: 8vw;
 }
-.footer-text-2{
+
+.footer-text-2 {
     font-size: 1.2vw;
     margin-top: 1vw;
     width: 10vw;
     margin-left: 8vw;
 }
-.footer-text-3{
+
+.footer-text-3 {
     font-size: 1.2vw;
     margin-top: 1vw;
     width: 10vw;
     margin-left: 8vw;
 }
-.part{
+
+.part {
     margin-top: 4vw;
     /* gap: 2vw; */
 }
-.footer{
+
+.footer {
     font-family: "Roboto", sans-serif;
     display: flex;
 }
+
+@media screen and (min-width: 375px) and (max-width: 830px) {
+    .rejissor {
+        display: none;
+    }
+
+    .text-1 {
+        width: 50vw;
+        font-size: 2vw;
+    }
+
+    .text-2 {
+        width: 58vw;
+        font-size: 2vw;
+    }
+
+    .heading {
+        font-size: 1.8vw;
+    }
+
+    .footer-text-1 {
+        font-size: 1.4vw;
+        width: 15vw;
+    }
+
+    .footer-text-2 {
+        font-size: 1.4vw;
+        width: 14vw;
+    }
+
+    .footer-text-3 {
+        font-size: 1.4vw;
+        width: 10vw;
+    }
+
+    .kameraman {
+        margin-top: -60vw;
+        width: 24vw;
+        height: 24vw;
+    }
+    .text-2{
+        margin-top: 3vw;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 830px)
