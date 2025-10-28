@@ -17,6 +17,7 @@ header {
 .kameraman {
     margin-left: 70vw;
     margin-top: -50vw;
+    margin-bottom: 4vw;
     width: 20vw;
     height: 20vw;
 }
@@ -70,57 +71,61 @@ header {
     margin-left: 8vw;
 }
 
-.part {
-    margin-top: 4vw;
-    /* gap: 2vw; */
-}
-
 .footer {
     font-family: "Roboto", sans-serif;
     display: flex;
 }
 
-@media screen and (min-width: 375px) and (max-width: 830px) {
+@media screen and (min-width: 831px) and (max-width: 1400px) {
     .rejissor {
         display: none;
     }
-
-    .text-1 {
-        width: 50vw;
-        font-size: 2vw;
+}
+@media screen and (min-width: 375px) and (max-width: 830px) {
+       .rejissor {
+        display: none;
+    }
+    header{
+        margin-top: 6vw;
+        font-size: 6vw;
+    }
+    .kameraman{
+        margin-top: 8vw;
+        margin-left: 30vw;
+        height: 36vw;
+        width: 36vw;
+    }
+     .text-1 {
+        width: 80vw;
+        font-size: 3vw;
     }
 
     .text-2 {
-        width: 58vw;
-        font-size: 2vw;
+        width: 85vw;
+        font-size: 3vw;
+        margin-top: 3vw;
     }
-
     .heading {
-        font-size: 1.8vw;
+        font-size: 2.5vw;
     }
 
     .footer-text-1 {
-        font-size: 1.4vw;
-        width: 15vw;
+        font-size: 2vw;
+        width: 18vw;
     }
 
     .footer-text-2 {
-        font-size: 1.4vw;
-        width: 14vw;
+        font-size: 2vw;
+        width: 16vw;
     }
 
     .footer-text-3 {
-        font-size: 1.4vw;
-        width: 10vw;
+        font-size: 2vw;
+        width: 16vw;
     }
-
-    .kameraman {
-        margin-top: -60vw;
-        width: 24vw;
-        height: 24vw;
-    }
-    .text-2{
-        margin-top: 3vw;
+    .part-m3{
+        margin-top: 15vw;
+        margin-left: -50vw;
+        margin-bottom: 15vw;
     }
 }
-@media screen and (min-width: 375px) and (max-width: 830px)
